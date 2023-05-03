@@ -1,6 +1,6 @@
 # Магомед Магомедов
 Мои первые проекты
 
-[Салта](https://magomedov-m.github.io/Salta/)
+[Проект 1](https://magomedov-m.github.io/Salta/) - Салта 2023г.
 
-[Simplisity](https://magomedov-m.github.io/Simplisity/)
+[Проект 2](https://magomedov-m.github.io/Simplisity/) - Simplisity
