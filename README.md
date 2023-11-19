@@ -9,4 +9,4 @@
 
 [Проект 4](https://magomedov-m.github.io/Project_music/src/) - Музыкант.
 
-[Проект 5](https://magomedov-m.github.io/Robotics_training_school/) - Школа обучения робототехнике.
+[Проект 5](https://magomedov-m.github.io/Robotics_training_school/src/) - Школа обучения робототехнике.
