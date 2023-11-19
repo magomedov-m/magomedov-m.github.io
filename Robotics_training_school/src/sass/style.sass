@@ -1,0 +1,874 @@
+// Глобальный контейнер
+.container
+    position: relative
+    width: 1920px
+    height: 1080px
+    margin: 0 auto
+
+// Первая секция
+.first-section
+    padding-left: 115px 
+    padding-top: 0px
+    padding-right: 15px
+    background: #141024
+    color: #ffffff
+
+// Меню
+.menu  
+    &__navigation
+        margin-right: 445px
+        font-size: 20px 
+        display: inline-block
+.number  
+    display: inline-block
+    color: #ffffff
+    margin-right: 40px
+.name
+    font-size: 30px
+    margin-right: 470px
+    display: inline-block
+    color: #ffffff
+
+// Табличка
+.sign
+    width: 530px
+    margin: 250px 0 0 265px
+    &__name
+        font-size: 70px
+        margin: 0 0 20px 0
+    &__text
+        margin: 0 0 50px 0
+        font-size: 20px 
+    &__img         
+        height: 917px
+        flex-shrink: 0
+        margin-left: 941px
+
+.button 
+    border: none
+    font-size: 18px
+    color: #fff
+    width: 260px
+    height: 80px
+    border-radius: 1em
+    background: #D52027
+
+
+
+
+// Вторая секция
+.second-section__block
+    padding: 120px 0 120px 0
+    margin-left: 380px
+    width: 1160px
+
+.text
+    font-size: 18px
+    font-weight: 400
+    font-style: normal
+
+.info_about_school
+    transition: 0.4s
+.info_about_school:hover
+    transform: scale(1.07)
+     
+
+.text-concept
+    width: 890px
+    font-size: 30px
+    font-style: normal
+    margin-bottom: 60px
+    span
+        font-weight: 600
+
+.info
+    display: flex
+    justify-content: space-between
+    span
+        color: #D52027
+        font-size: 70px
+        font-weight: 600
+        font-style: normal
+
+// Третья секция
+.third-section
+    padding: 100px 0 
+    width: 1920px
+    background: #F9F9F9
+    margin-bottom: 120px
+    &__block
+        margin-left: 380px
+        width: 1160px
+    
+.title-info
+    margin-top: 0
+    font-size: 50px
+    font-style: normal
+    font-weight: 600
+    margin-bottom: 60px
+        
+.third-section-block-text
+    display: flex
+    justify-content: space-between
+    &__info
+        display: inline-block
+        width: 360px
+    &__title
+        font-size: 24px
+        font-style: normal
+        font-weight: 600
+        margin-bottom: 20px
+    
+// Четвертая секция
+.fourth-section
+    position: relative
+    width: 1160px
+    margin-left: 380px
+    &__cards
+        position: relative
+        display: flex
+        justify-content: space-between
+        img
+            height: 500px
+        p
+            padding: 0
+            margin-top: 0 
+    img
+        width: 360px
+        margin-bottom: 20px
+    &__cards__card
+        &__frame-img
+            margin-bottom: 20px
+
+.name-teacher
+    color: #141024
+    font-size: 24px
+    font-style: normal
+    font-weight: 600
+    margin-bottom: 10px
+
+.name-information
+    color: rgba(20, 16, 36, 0.70)
+    font-size: 18px
+    font-style: normal
+    font-weight: 400
+    margin-bottom: 20px
+
+.more-details
+    color: #D52027
+    font-size: 18px
+    font-style: normal
+    font-weight: 400
+    margin-top: 0
+
+
+// Динамическая карточка про преподавателя
+.card__more_information
+    display: none
+    position: absolute
+    z-index: 90
+    margin-left: 110px
+    width: 940px
+    height: 770px
+    flex-shrink: 0
+    border-radius: 20px
+    background: #fff
+    &__block
+        display: flex
+        img
+            border-radius: 20px
+    button
+        display: inline-block
+        border: none
+        background: none
+        color: rgba(20, 16, 36, 0.70)
+        text-align: right
+        font-family: Jost
+        font-size: 18px
+        font-style: normal
+        font-weight: 400
+    &__info_list
+        display: flex
+        justify-content: space-around
+        &__elem
+            margin: 40px
+    &__edu_info
+        width: 860px
+        color: #141024
+        font-family: Jost
+        font-size: 20px
+        font-style: normal
+        font-weight: 400
+        margin-left: 40px
+        &__elem
+            p
+                font-weight: 900
+    hr
+        width: 860px
+        height: 1px
+        background: rgba(20, 16, 36, 0.11)
+        margin: 20px
+    &__img_info
+        display: flex
+        justify-content: space-between
+        align-items: start
+        margin: 40px
+        img
+            width: 160px
+            height: 222px
+            flex-shrink: 0 
+            display: inline-block
+        &__social_media
+            display: inline-block
+            margin-left: 40px
+            i
+                img
+                    width: 30px
+                    height: 30px
+                    flex-shrink: 0
+            span
+                color: #141024
+                font-family: Jost
+                font-size: 24px
+                font-style: normal
+                font-weight: 600
+            p
+                color: rgba(20, 16, 36, 0.70)
+                font-family: Jost
+                font-size: 18px
+                font-style: normal
+                font-weight: 400
+
+.title-info
+    margin-bottom: 60px
+
+.button-block
+    margin-left: 900px
+    width: 90px
+    max-height: 90px
+    display: flex
+    justify-content: space-between
+    &__icons
+        width: 40px
+        height: 40px
+        flex-shrink: 0
+        &__icon
+            width: 33px
+            height: 33px
+            flex-shrink: 0
+    
+.slider
+    img
+        width: 360px
+        border-radius: 20px
+            
+
+// Пятая секция
+.fifth-section
+    width: 1160px
+    margin-left: 380px
+    margin-bottom: 120px
+    &__price-cards
+        display: flex
+        justify-content: space-between
+        &__price-card
+            width: 360px
+            height: 500px
+            border-radius: 20px
+            border: 1px solid rgba(20, 16, 36, 0.20)
+            display: inline-block
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+            h2
+                text-align: center
+                font-family: Jost
+                font-size: 50px
+                font-style: normal
+                font-weight: 600
+            h3
+                font-size: 30px
+                font-style: normal
+                font-weight: 600
+        &__price-card:first-child
+            background: #141024
+            color: #ffffff
+            transition: 0.4s
+        &__price-card:first-child:hover
+            transform: scale(1.06)
+            
+.footer
+    position: relative
+    width: 1920px
+    height: 460px
+    background: #D52027
+    img
+        position: absolute
+        display: inline-block
+        width: 1920px
+        object-fit: contain
+        z-index: 0
+    &__form
+        position: absolute
+        display: flex
+        justify-content: space-around 
+        width: 1160px
+        margin-left: 380px
+        &__text
+            padding-top: 105px
+            h1
+                width: 476px
+                color: #FFF
+                font-family: Jost
+                font-size: 36px
+                font-style: normal
+                font-weight: 600
+            p
+                color: #FFF
+                font-family: Jost
+                font-size: 20px
+                font-style: normal
+                font-weight: 400
+                margin-right: 145px
+        &__input
+            display: flex
+            flex-direction: column
+            align-content: space-around
+            padding-top: 90px
+.data_input
+    width: 500px
+    height: 64px
+    flex-shrink: 0  
+    margin-bottom: 10px
+
+.button_application
+    width: 508px
+    height: 64px
+    flex-shrink: 0
+    border-radius: 5px
+    background: #141024
+    border: none
+    z-index: 1
+    p
+        color: #FFF
+        text-align: center
+        font-family: Jost
+        font-size: 18px
+        font-style: normal
+        font-weight: 400
+        line-height: normal    
+
+.footer-info
+    display: flex
+    justify-content: space-around
+    align-items: center
+    width: 1920px
+    height: 160px  
+    background: #141024
+
+        
+// Адаптив для ПК
+@media ( max-width: 1199px )
+    .container
+        width: 960px 
+        margin: 0 auto 
+
+    // Первая секция
+    .first-section
+        padding-left: 115px 
+        padding-top: 0px
+        padding-right: 15px
+        background: #141024
+        color: #fff
+
+    // Табличка
+    .sign
+        width: 530px
+        margin: 210px 0 0 110px
+        &__name
+            font-size: 70px
+            margin: 0 0 20px 0
+        &__text
+            margin: 0 0 50px 0
+            font-size: 20px 
+        &__img         
+            height: 650px
+            flex-shrink: 0
+            margin-left: 265px
+    
+    // Меню
+    .menu 
+        display: flex
+        justify-content: space-between 
+        &__navigation
+            margin-right: 0
+            font-size: 20px 
+            display: inline-block
+            p
+                margin-right: 40px
+                display: inline-block
+        &__navigation
+            p:last-child
+                margin-right: 0
+        &__number
+            font-size: 25px
+    .name
+        font-size: 30px
+        margin-right: 0px
+        display: inline-block
+        color: #ffffff
+
+    // Вторая секция
+    .second-section__block
+        margin-left: 0px
+        width: 960px        
+
+    .text-concept
+        width: 960px
+        margin-left: 15px
+    .info
+        display: flex
+        justify-content: space-around
+        span
+            color: #D52027
+            font-size: 70px
+            font-weight: 600
+            font-style: normal
+    .info_about_school
+        margin-bottom: 15px
+        width: 200px
+
+    // Третья секция
+    .third-section
+        padding: 100px 0 
+        width: 960px
+        background: #F9F9F9
+        margin-bottom: 120px
+        &__block
+            margin-left: 15px
+            width: 960px
+
+    .third-section-block-text
+        display: flex
+        justify-content: space-around
+
+    .third-section-block-text__info
+        width: 230px
+
+    // Четвертая секция
+    .fourth-section
+        position: relative
+        width: 960px
+        margin-left: 15px
+        margin-bottom: 100px
+        &__cards
+            position: relative
+            display: flex
+            justify-content: space-between
+            width: 960px
+            img
+                height: 500px
+
+    .slick-slide
+        img
+            width: 300px
+            height: 455px
+
+    // Пятая секция
+    .fifth-section
+        width: 960px
+        margin-left: 15px
+        &__price-cards__price-card
+            width: 300px
+            height: 455px
+            margin-right: 20px
+            .text
+                text-align: center
+            .button
+                border: none
+                width: 170px
+                height: 50px
+
+    // Футер сайта
+    .footer
+        position: relative
+        width: 960px
+        height: 800px
+        background: #D52027
+        display: flex
+        img
+            width: 960px
+            object-fit: contain
+            margin-top: 570px
+        &__form
+            display: flex
+            flex-direction: column
+            margin-left: 200px
+        &__text
+            height: 200px
+
+    .footer-info
+        width: 960px
+        &__number
+            font-size: 30px
+
+
+
+
+// Адаптив для горизонтального планшета
+@media ( max-width: 991px )
+    .container
+        width: 720px 
+        height: auto 
+        margin: 0 auto
+
+    // Первая секция
+    .first-section
+        padding-left: 15px 
+        padding-top: 0px
+        padding-right: 15px
+        background: #141024
+        color: #ffffff
+
+    // Табличка
+    .sign
+        width: 530px
+        margin: 250px 0 0 115px
+        &__name
+            font-size: 70px
+            margin: 0 0 20px 0
+        &__text
+            margin: 0 0 50px 0
+            font-size: 20px 
+        &__img         
+            height: 570px
+            flex-shrink: 0
+            margin-left: 200px
+    
+    // Меню
+    .menu 
+        max-width: 720px
+        display: flex
+        justify-content: space-between 
+        &__number
+            margin-top: 25px
+            font-size: 20px
+            width: 160px
+            margin-right: 0
+        &__navigation
+            width: 400px
+            margin-right: 0
+            font-size: 20px 
+            display: inline-block
+            p
+                margin-right: 40px
+                display: inline-block
+        &__navigation::last-child
+            margin-right: 0px
+    .name
+        font-size: 20px
+        margin-right: 20px
+        display: inline-block
+        color: #ffffff
+
+    .number   
+        font-size: 20px
+
+        
+
+    // Вторая секция
+    .second-section__block
+        width: 720px        
+
+    .text-concept
+        width: 720px
+
+    .info
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        span
+            color: #D52027
+            font-size: 70px
+            font-weight: 600
+            font-style: normal
+    .info_about_school
+        margin-bottom: 15px
+        width: 230px
+        margin-bottom: 20px
+        font-size: 19px
+
+    // Третья секция
+    .third-section
+        padding: 100px 0 
+        width: 720px
+        background: #F9F9F9
+        margin-bottom: 120px
+        &__block
+            width: 720px
+
+    // Четвертая секция
+    .fourth-section
+        position: relative
+        width: 720px
+        &__cards
+            position: relative
+            display: flex
+            justify-content: space-between
+            width: 718px
+            img
+                height: 500px
+
+    .slick-slide
+        img
+            width: 230px
+            height: 320px
+
+    // Пятая секция
+    .fifth-section
+        width: 720px
+        &__price-cards__price-card
+            width: 230px
+            height: 400px
+            .text
+                text-align: center
+            .button
+                border: none
+                width: 170px
+                height: 50px
+
+    // Футер сайта
+    .footer
+        position: relative
+        width: 720px
+        height: 800px
+        background: #D52027
+        display: flex
+        img
+            width: 720px
+            object-fit: contain
+            margin-top: 626px
+        &__form
+            display: flex
+            flex-direction: column
+            margin-left: 110px
+
+    .footer-info
+        width: 720px
+
+// Адаптив для вертикального планшета
+@media ( max-width: 767px )
+    .container
+        width: 540px
+        margin: 0 auto
+
+    .menu
+        &__navigation
+            position: absolute
+            width: 50%
+            top: 8px
+            right: -100%
+            height: 100vh
+            background: #bb1610
+            z-index: 20
+            transition: 1s all
+            p
+                display: flex
+                justify-content: space-evenly
+                flex-direction: column
+                align-items: center
+                height: 20%
+                font-size: 30px
+        &__number
+            display: none
+    // Гамбургер    
+    .humburger
+        width: 30px
+        position: absolute
+        top: 40px
+        right: 30px
+        height: 14px
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background: #fff
+            margin-bottom: 4px
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0
+
+    .humburger_active
+        z-index: 21
+        color: #fff
+        position: absolute
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+    .menu__navigation_active
+        right: 0px
+        top: 0
+    
+    // Табличка
+    .sign
+        width: 330px
+        margin: 100px auto
+        &__name
+            font-size: 70px
+            margin: 0 0 20px 0
+        &__text
+            margin: 0 0 50px 0
+            font-size: 20px 
+        &__img         
+            height: 430px
+            flex-shrink: 0
+            margin-left: 140px
+
+    // Меню
+    .menu 
+        max-width: 540px
+        display: flex
+        justify-content: space-between 
+        &__number
+            margin-top: 25px
+            font-size: 20px
+            width: 160px
+            margin-right: 0
+        &__navigation
+            width: 400px
+            margin-right: 0
+            font-size: 20px 
+            display: inline-block
+            p
+                margin-right: 40px
+                display: inline-block
+        &__navigation::last-child
+            margin-right: 0px
+    .name
+        font-size: 20px
+        margin-right: 20px
+        display: inline-block
+        color: #ffffff
+
+    .number   
+        font-size: 20px
+
+        
+
+    // Вторая секция
+    .second-section__block
+        width: 540px       
+
+    .text-concept
+        width: 540px
+
+    .info
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        span
+            color: #D52027
+            font-size: 70px
+            font-weight: 600
+            font-style: normal
+    .info_about_school
+        margin-bottom: 15px
+        width: 230px
+        margin-bottom: 20px
+        font-size: 19px
+
+    // Третья секция
+    .third-section
+        padding: 100px 0 
+        width: 540px
+        background: #F9F9F9
+        margin-bottom: 120px
+        &__block
+            width: 540px
+
+    .third-section-block-text
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        &__info
+            margin-bottom: 20px
+
+    .title-info
+        width: 540px
+        font-size: 45px
+        
+
+    // Четвертая секция
+    .fourth-section
+        position: relative
+        width: 540px
+        &__cards
+            position: relative
+            display: flex
+            justify-content: space-between
+            width: 718px
+            img
+                height: 500px
+
+    .slick-slide
+        img
+            width: 230px
+            height: 320px
+
+    // Пятая секция
+    .fifth-section
+        width: 540px
+        &__price-cards
+            display: flex
+            align-items: center
+            flex-direction: column
+        &__price-cards__price-card
+            display: flex
+            justify-content: center
+            width: 300px
+            height: 400px
+            margin-bottom: 20px
+            .text
+                text-align: center
+                font-size: 19px
+            .button
+                border-radius: 1rem
+                border: none
+                width: 170px
+                height: 50px
+
+    // Футер сайта
+    .footer
+        position: relative
+        width: 540px
+        height: 800px
+        background: #D52027
+        display: flex
+        img
+            width: 540px
+            object-fit: contain
+            margin-top: 670px
+        &__form
+            width: 400px
+    .data_input
+        width: 300px
+        height: 40px
+    .footer-info
+        width: 540px
+
+    .button_application
+        width: 309px
+    
+
+
+@media ( max-width: 575px )
+    .container
+        width: 100%
+    
+        
