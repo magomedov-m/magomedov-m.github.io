@@ -7,4 +7,4 @@
 
 [Проект 3](https://magomedov-m.github.io/lesson_12/) - Как заработать свой первый  миллион.
 
-[Проект 4](https://magomedov-m.github.io/Project - music /src/) - Музыкант
+[Проект 4](https://magomedov-m.github.io/Project - music/src/) - Музыкант
