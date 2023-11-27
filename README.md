@@ -11,4 +11,4 @@
 
 [Проект 5](https://magomedov-m.github.io/Robotics_training_school/src/) - Школа обучения робототехнике.
 
-[Проект 6](magomedov-m.github.io/src_for_github/) - Стилус. 
+[Проект 6](https://magomedov-m.github.io/src_for_github/) - Стилус. 
