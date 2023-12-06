@@ -8,3 +8,6 @@
 [Проект 3](https://magomedov-m.github.io/Robotics_training_school/src/) - Школа обучения робототехнике.
 
 [Проект 4](https://magomedov-m.github.io/src_for_github/) - Стилус. 
+
+[Проект 5](https://magomedov-m.github.io/culc_bmi_for_github/) - Калькулятор индекса массы тела.
+
