@@ -11,3 +11,6 @@
 
 [Проект 5](https://magomedov-m.github.io/culc_bmi_for_github/) - Калькулятор индекса массы тела.
 
+[Проект 6](https://magomedov-m.github.io/redWinterGIthub/src/) - Сайт для бронирования билетов в кинотеатре.
+
+
