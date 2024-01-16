@@ -15,6 +15,8 @@
 
 [Проект 7](https://) - ToDo - лист.
 
+[Курсовая](https://magomedov-m.github.io/gtihub/src/) - Сайт для нотариальной конторы.
+
 
 
 
