@@ -11,11 +11,7 @@
 
 [Проект 5](https://magomedov-m.github.io/culc_bmi_for_github/) - Калькулятор индекса массы тела.
 
-[Проект 6](https://magomedov-m.github.io/redWinterGIthub/src/) - Сайт для бронирования билетов в кинотеатре.
-
-[Проект 7](https://) - ToDo - лист.
-
-[Курсовая](https://magomedov-m.github.io/github/src/) - Сайт для нотариальной конторы.
+[Проект 6](https://magomedov-m.github.io/github/src/) - Сайт для нотариальной конторы.
 
 
 
