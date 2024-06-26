@@ -7,7 +7,7 @@
 
 [Проект 3](https://magomedov-m.github.io/culc_bmi_for_github/) - Калькулятор индекса массы тела.
 
-[Проект 4](https://magomedov-m.github.io/lesson_12/) - Как заработать свой первый  миллион.
+
 
 
 
