@@ -1,5 +1,5 @@
 # Магомед Магомедов
-Мои первые проекты: верстка.
+Мои проекты на HTML&CSS + JavaScript: верстка.
 
 [Проект 1](https://magomedov-m.github.io/Project_music/src/) - Музыкант.
 
