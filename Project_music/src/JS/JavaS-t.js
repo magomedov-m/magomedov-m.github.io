@@ -41,7 +41,8 @@ class Client {
     }
 };
 
-let ClientId = new Client('Magomed', 'Magomedov', 'Abdurazakovich', 21, 'р. Дагестан, г. Махачкала', 8964555349);
+let ClientId = new Client('Алексей', 'Алексеев', 'Алексеевич', 21, 'р. Татарстан, г. Махачкала', 8964555349);
 console.log(ClientId.general_information());
+
 
 
